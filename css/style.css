@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    height: 80px;
+    padding: 10px 0;
+}
+
+.nav .logo .logo-img{
+    width: 55px;
+    height: 50px;
+}
+
+.nav .logo .logo-header{
+    padding-left: 10px;
+}
+
+.nav .logo .logo-header h4{
+    font-size: 28px;
+    font-weight: 800;
+    color: #222;
+    margin-bottom: 0;
+}
+
+.nav .logo .logo-header span{
+    font-size: 10px;
+    color: #555;
+    font-weight: 400;
+}
+
+.nav .search-bar .dropdown .dropdown-toggle{
+    padding-left: 5px;
+}
+
+.nav .search-bar .dropdown button{
+    color: #6C5DD4;
+    font-weight: 600;
+}
+
+.nav .search-bar .dropdown button i{
+    padding-right: 5px;
+}
+
+.nav .search-bar{
+    border: 0.7px solid #6d5dd46c;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.nav .search-bar input{
+    outline: none;
+}
+
+.nav .icons-bar {
+    padding: 0 10px; 
+}
+
+.nav .icons-bar .like,
+.nav .icons-bar .market{
+    position: relative;
+    padding: 15px;
+}
+
+.nav .icons-bar .like i,
+.nav .icons-bar .market i{
+    font-size: 18px;
+    color: #222;
+}
+
+.nav .icons-bar .like p,
+.nav .icons-bar .market p{
+    position: absolute;
+    display: inline;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    background: #e98400;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.nav .account-bar .account-img{
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+
+.nav .account-bar .account-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.nav .account-bar .dropdown button h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .nav .account-bar .account-img{
+        width: 45px;
+        height: 45px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav .logo .logo-img{
+        width: 45px;
+        height: 40px;
+    }
+
+    .nav .logo .logo-header h4{
+        font-size: 18px;
+        font-weight: 800;
+        color: #222;
+        margin-bottom: 0;
+    }
+    
+    .nav .logo .logo-header span{
+        font-size: 7px;
+        color: #555;
+        font-weight: 400;
+    }
+
+    .nav .account-bar .account-img{
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+    }
+}
